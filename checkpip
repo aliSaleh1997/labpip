@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('start') {
+            steps {
+                echo 'start World'
+            }
+        }
+          stage('okkk') {
+            steps {
+                echo 'okWorld'
+            }
+        }
+          stage('end') {
+            steps {
+                echo 'end from get'
+                echo 'end World'
+            }
+        }
+    }
+}
