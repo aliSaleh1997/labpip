@@ -20,6 +20,7 @@ pipeline {
                 expression {
                     params.executeBuild
                 }
+                }
             steps {
                 script {
                     gv.buildApp()
